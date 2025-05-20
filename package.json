@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
-    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css"
+    "build": "tailwindcss -i ./src/input.css -o ./dist/output.css",
+    "postinstall": "npm run build"
   },
   "keywords": [],
   "author": "",
